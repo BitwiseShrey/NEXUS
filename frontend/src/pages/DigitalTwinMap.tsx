@@ -50,6 +50,7 @@ const createCustomMarker = (type: string, riskScore: number = 0) => {
 export const DigitalTwinMap: React.FC = () => {
   const [selectedType, setSelectedType] = useState<string>('ALL');
   const [selectedEntity, setSelectedEntity] = useState<GeoFacilityFeature['properties'] | null>(null);
+  const [isDarkMode, setIsDarkMode] = useState<boolean>(true);
 
   const { data: geoData, isLoading: loadingGis, error: errorGis } = useQuery({
     queryKey: ['gis-facilities'],
@@ -133,10 +134,12 @@ export const DigitalTwinMap: React.FC = () => {
             scrollWheelZoom={true}
             className="w-full h-full"
           >
-            {/* Dark Basemap CartoDB */}
+            {/* Keyless OpenStreetMap Base Layer */}
             <TileLayer
-              attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> &copy; <a href="https://carto.com/">CARTO</a>'
-              url="https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png"
+              attribution='&copy; <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener noreferrer">OpenStreetMap</a> contributors'
+              url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+              className={isDarkMode ? 'dark-tile-layer' : undefined}
+              maxZoom={19}
             />
 
             {/* Multimodal Route Corridors */}
@@ -203,6 +206,16 @@ export const DigitalTwinMap: React.FC = () => {
               );
             })}
           </MapContainer>
+
+          {/* Map Base Layer Toggle (Dark vs Street) */}
+          <button
+            onClick={() => setIsDarkMode((prev) => !prev)}
+            className="absolute top-4 right-4 z-[1000] px-3 py-1.5 rounded-lg bg-nexus-900/90 hover:bg-nexus-850 backdrop-blur-md border border-nexus-700 text-xs font-medium text-slate-300 hover:text-white transition-all shadow-xl flex items-center gap-1.5 pointer-events-auto"
+            title="Toggle between Keyless Dark View and Standard Street OpenStreetMap"
+          >
+            <Layers className="w-3.5 h-3.5 text-blue-400" />
+            <span>{isDarkMode ? 'Dark View' : 'Street View'}</span>
+          </button>
 
           {/* Map Overlay Legend */}
           <div className="absolute bottom-4 left-4 z-[1000] p-3 rounded-lg bg-nexus-900/90 backdrop-blur-md border border-nexus-700 text-[11px] space-y-1.5 shadow-xl pointer-events-auto">
