@@ -1,0 +1,44 @@
+{
+  "Logistic_Regression_Baseline": {
+    "precision": 0.7531,
+    "recall": 0.7349,
+    "f1_score": 0.7439,
+    "roc_auc": 0.7401,
+    "confusion_matrix": [
+      [
+        17,
+        20
+      ],
+      [
+        22,
+        61
+      ]
+    ]
+  },
+  "XGBoost_Risk_Classifier": {
+    "precision": 0.7442,
+    "recall": 0.7711,
+    "f1_score": 0.7574,
+    "roc_auc": 0.6988,
+    "confusion_matrix": [
+      [
+        15,
+        22
+      ],
+      [
+        19,
+        64
+      ]
+    ]
+  },
+  "feature_importance": {
+    "lead_time_variability": 0.2238,
+    "lead_time": 0.1979,
+    "historical_delays": 0.1271,
+    "average_delay": 0.1213,
+    "on_time_rate": 0.1202,
+    "quality_score": 0.1125,
+    "capacity_utilization": 0.0611,
+    "delay_frequency": 0.0362
+  }
+}

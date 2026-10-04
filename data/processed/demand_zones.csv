@@ -1,0 +1,31 @@
+zone_id,name,region,latitude,longitude,product_id,historical_demand,forecast_demand,demand_growth
+ZONE_01,Delhi NCR Urban Demand Zone,North,28.6139,77.209,PROD_ITEM_030,3496.7,3821.9,0.093
+ZONE_02,Gurgaon Urban Demand Zone,North,28.4595,77.0266,PROD_ITEM_047,8468.0,9145.4,0.08
+ZONE_03,Jaipur Urban Demand Zone,North,26.9124,75.7873,PROD_ITEM_046,4906.7,5137.3,0.047
+ZONE_04,Lucknow Urban Demand Zone,North,26.8467,80.9462,PROD_ITEM_014,8281.0,8960.0,0.082
+ZONE_05,Chandigarh Urban Demand Zone,North,30.7333,76.7794,PROD_ITEM_035,1926.7,2038.4,0.058
+ZONE_06,Ludhiana Urban Demand Zone,North,30.901,75.8573,PROD_ITEM_004,5589.2,6008.4,0.075
+ZONE_07,Kanpur Urban Demand Zone,North,26.4499,80.3319,PROD_ITEM_034,2602.0,2903.8,0.116
+ZONE_08,Varanasi Urban Demand Zone,North,25.3176,82.9739,PROD_ITEM_006,7459.4,7727.9,0.036
+ZONE_09,Mumbai (Bhiwandi) Urban Demand Zone,West,19.2967,73.0628,PROD_ITEM_005,6226.5,6544.1,0.051
+ZONE_10,Pune (Chakan) Urban Demand Zone,West,18.7606,73.8617,PROD_ITEM_008,8091.2,8746.6,0.081
+ZONE_11,Ahmedabad (Aslali) Urban Demand Zone,West,22.9228,72.5855,PROD_ITEM_038,5661.6,6148.5,0.086
+ZONE_12,Surat Urban Demand Zone,West,21.1702,72.8311,PROD_ITEM_027,6101.6,6595.8,0.081
+ZONE_13,Vadodara Urban Demand Zone,West,22.3072,73.1812,PROD_ITEM_021,8042.9,8429.0,0.048
+ZONE_14,Nagpur (MIHAN) Urban Demand Zone,Central,21.1458,79.0882,PROD_ITEM_046,3699.3,3899.1,0.054
+ZONE_15,Bengaluru (Hoskote) Urban Demand Zone,South,13.0712,77.7981,PROD_ITEM_009,6201.8,6555.3,0.057
+ZONE_16,Chennai (Sri City) Urban Demand Zone,South,13.5284,80.027,PROD_ITEM_021,8003.1,8915.5,0.114
+ZONE_17,Hyderabad (Medchal) Urban Demand Zone,South,17.6297,78.4814,PROD_ITEM_001,4708.0,5273.0,0.12
+ZONE_18,Kochi Urban Demand Zone,South,9.9312,76.2673,PROD_ITEM_007,2012.8,2111.4,0.049
+ZONE_19,Coimbatore Urban Demand Zone,South,11.0168,76.9558,PROD_ITEM_017,2427.2,2575.3,0.061
+ZONE_20,Visakhapatnam Urban Demand Zone,South,17.6868,83.2185,PROD_ITEM_005,7654.9,8137.2,0.063
+ZONE_21,Kolkata (Dankuni) Urban Demand Zone,East,22.6841,88.2917,PROD_ITEM_011,4567.3,4928.1,0.079
+ZONE_22,Bhopal Urban Demand Zone,Central,23.2599,77.4126,PROD_ITEM_020,5781.7,6469.7,0.119
+ZONE_23,Indore (Pithampur) Urban Demand Zone,Central,22.6145,75.6917,PROD_ITEM_042,5202.6,5670.8,0.09
+ZONE_24,Patna Urban Demand Zone,East,25.5941,85.1376,PROD_ITEM_036,3595.7,3919.3,0.09
+ZONE_25,Bhubaneswar Urban Demand Zone,East,20.2961,85.8245,PROD_ITEM_009,3351.3,3719.9,0.11
+ZONE_26,Guwahati Urban Demand Zone,East,26.1445,91.7362,PROD_ITEM_048,5372.6,5668.1,0.055
+ZONE_27,Raipur Urban Demand Zone,Central,21.2514,81.6296,PROD_ITEM_039,2974.4,3155.8,0.061
+ZONE_28,Jamshedpur Urban Demand Zone,East,22.8046,86.2029,PROD_ITEM_044,5939.7,6260.4,0.054
+ZONE_29,Sanand Urban Demand Zone,West,22.9859,72.3789,PROD_ITEM_032,3257.8,3622.7,0.112
+ZONE_30,Pantnagar Urban Demand Zone,North,29.0222,79.4897,PROD_ITEM_004,2146.1,2292.0,0.068

@@ -1,0 +1,21 @@
+supplier_id,supplier_name,location,latitude,longitude,product_categories,capacity,lead_time,unit_cost,on_time_rate,quality_score,historical_delays,risk_score,status
+SUP_001,Tata AutoComp Components,"Pune (Chakan), Maharashtra",18.7606,73.8617,Automotive,12000.0,4.0,145.0,0.94,0.97,6,0.059,ACTIVE
+SUP_002,Foxlink Electronics India,"Chennai (Sri City), Tamil Nadu",13.5284,80.027,Electronics,18000.0,5.0,310.0,0.92,0.96,6,0.098,ACTIVE
+SUP_003,Bharat Precision Dynamics,"Gurgaon, Haryana",28.4595,77.0266,Industrial,9500.0,3.5,210.0,0.96,0.98,4,0.05,ACTIVE
+SUP_004,Sanand Precision Casting,"Sanand, Gujarat",22.9859,72.3789,Automotive,14000.0,4.5,180.0,0.91,0.95,8,0.056,ACTIVE
+SUP_005,Tata Steel Raw Materials,"Jamshedpur, Jharkhand",22.8046,86.2029,Industrial,25000.0,6.0,95.0,0.89,0.94,9,0.077,ACTIVE
+SUP_006,VVDN Embedded Technologies,"Bengaluru (Hoskote), Karnataka",13.0712,77.7981,Electronics,11000.0,3.0,450.0,0.95,0.98,2,0.097,ACTIVE
+SUP_007,Gujarat Specialty Chemicals,"Ahmedabad (Aslali), Gujarat",22.9228,72.5855,Chemicals,16000.0,4.0,130.0,0.93,0.96,12,0.058,ACTIVE
+SUP_008,Pithampur Heavy Machinery,"Indore (Pithampur), Madhya Pradesh",22.6145,75.6917,Industrial,8500.0,5.0,275.0,0.9,0.93,8,0.082,ACTIVE
+SUP_009,Kumaon Polymer Solutions,"Pantnagar, Uttarakhand",29.0222,79.4897,Chemicals,13000.0,4.5,115.0,0.94,0.97,3,0.068,ACTIVE
+SUP_010,Surat Synthetic Textiles,"Surat, Gujarat",21.1702,72.8311,FMCG,22000.0,2.5,75.0,0.97,0.98,2,0.054,ACTIVE
+SUP_011,North India Packaging Hub,"Delhi NCR, Delhi",28.6139,77.209,Packaging,30000.0,2.0,45.0,0.98,0.99,1,0.05,ACTIVE
+SUP_012,Dr. Reddys API Bio-Supply,"Hyderabad (Medchal), Telangana",17.6297,78.4814,Pharma,15000.0,4.0,380.0,0.96,0.99,2,0.06,ACTIVE
+SUP_013,Apex Western Logistics Supplies,"Mumbai (Bhiwandi), Maharashtra",19.2967,73.0628,Industrial,20000.0,3.0,160.0,0.93,0.95,10,0.05,ACTIVE
+SUP_014,Alembic Pharma Intermediates,"Vadodara, Gujarat",22.3072,73.1812,Pharma,12500.0,3.5,340.0,0.95,0.98,1,0.066,ACTIVE
+SUP_015,Hero Fasteners & Hardware,"Ludhiana, Punjab",30.901,75.8573,Automotive,19000.0,4.0,85.0,0.92,0.94,6,0.05,ACTIVE
+SUP_016,Lakshmi Precision Motors,"Coimbatore, Tamil Nadu",11.0168,76.9558,Industrial,10500.0,4.5,230.0,0.94,0.97,5,0.073,ACTIVE
+SUP_017,Ganga Valley Leather & Polymers,"Kanpur, Uttar Pradesh",26.4499,80.3319,FMCG,14000.0,5.0,110.0,0.88,0.91,12,0.102,ACTIVE
+SUP_018,Punjab Agro & Ingredients,"Chandigarh, Punjab",30.7333,76.7794,FMCG,26000.0,3.0,60.0,0.95,0.96,5,0.067,ACTIVE
+SUP_019,Kalinga Metal & Alloys,"Bhubaneswar, Odisha",20.2961,85.8245,Industrial,17000.0,6.0,125.0,0.89,0.93,11,0.086,ACTIVE
+SUP_020,Marwar Electrical Assemblies,"Jaipur, Rajasthan",26.9124,75.7873,Electronics,13500.0,4.0,195.0,0.93,0.95,10,0.055,ACTIVE

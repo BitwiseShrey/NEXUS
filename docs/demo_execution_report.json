@@ -1,0 +1,76 @@
+{
+  "platform": "NEXUS Supply Chain Decision Intelligence Platform",
+  "execution_timestamp": "2026-09-26T11:19:38.937942",
+  "runtime_seconds": 6.09,
+  "status": "ALL_STAGES_COMPLETED_SUCCESSFULLY",
+  "digital_twin": {
+    "status": "SUCCESS",
+    "suppliers_count": 20,
+    "production_units_count": 8,
+    "products_count": 50,
+    "warehouses_count": 10,
+    "hubs_count": 15,
+    "demand_zones_count": 30,
+    "routes_count": 160,
+    "inventory_records": 500,
+    "orders_count": 50000,
+    "disruptions_count": 500
+  },
+  "machine_learning": {
+    "demand_forecasting_winner": "XGBoost_Regressor",
+    "demand_forecasting_rmse": 96042.4965,
+    "supplier_risk_f1": 1.0,
+    "supplier_risk_auc": 1.0,
+    "anomalies_detected": 7
+  },
+  "disruption_scenario": {
+    "type": "SUPPLIER_FAILURE",
+    "entity": "SUP_001",
+    "capacity_cut": "80%",
+    "duration": "10 days"
+  },
+  "impact_analysis": {
+    "products_at_risk": 1,
+    "shortage_risk_units": 3200.0,
+    "baseline_service_level": 0.98,
+    "projected_service_level": 0.63
+  },
+  "optimization_gain": {
+    "cost_saved_inr": 22542319.06,
+    "cost_reduction_percent": 53.89,
+    "shortage_reduction_units": 74967.0,
+    "service_level_improvement_percentage_points": 48.76,
+    "is_nexus_superior": true
+  },
+  "recommendation": {
+    "recommendation_id": "REC_67B4E1A0",
+    "run_id": "RUN_4289720B",
+    "title": "Mitigation Strategy for Tata AutoComp Components Disruption (SUPPLIER_FAILURE [SUP_001])",
+    "reason": "Risk analysis detected that Tata AutoComp Components (SUP_001) faces significant capacity degradation over a projected 10-day window. Without intervention, baseline heuristic operations would cause a shortage of 74,967.0 units, dropping network service levels to 51.2%.",
+    "recommended_actions": [
+      "Shift 16.8% (25000 units) of demand to SUP_005",
+      "Shift 8.7% (13000 units) of demand to SUP_009",
+      "Shift 10.6% (15802 units) of demand to SUP_010"
+    ],
+    "affected_entities": {
+      "primary_disrupted_entity": "SUP_001",
+      "dependent_products": [
+        "PROD_ITEM_003"
+      ],
+      "affected_warehouses": 2,
+      "affected_demand_zones": [
+        "ZONE_09",
+        "ZONE_13",
+        "ZONE_29",
+        "ZONE_23",
+        "ZONE_11"
+      ]
+    },
+    "action_type": "REALLOCATE_AND_REROUTE",
+    "expected_benefit": "Adopting the NEXUS optimized multi-echelon allocation reduces network shortage by 74,967.0 units, maintains service level at 100.0% (+48.76% vs baseline), and achieves net operational savings of INR 22,542,319.06 (53.89% cost reduction).",
+    "expected_cost": 19291240.54,
+    "cost_saved_inr": 22542319.06,
+    "confidence_score": 0.94,
+    "created_at": "2026-09-26T11:19:38.927316"
+  }
+}

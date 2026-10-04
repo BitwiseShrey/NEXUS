@@ -1,0 +1,11 @@
+warehouse_id,name,location,latitude,longitude,capacity,current_utilization,operating_cost,status
+WH_01,Central Bhiwandi Mega-Warehouse,"Mumbai (Bhiwandi), Maharashtra",19.2967,73.0628,150000.0,0.67,3500.0,ACTIVE
+WH_02,Delhi NCR National Distribution Hub,"Delhi NCR, Delhi",28.6139,77.209,180000.0,0.69,4200.0,ACTIVE
+WH_03,Bengaluru South Logistics Center,"Bengaluru (Hoskote), Karnataka",13.0712,77.7981,140000.0,0.76,3200.0,ACTIVE
+WH_04,Chennai Coastal Logistics Hub,"Chennai (Sri City), Tamil Nadu",13.5284,80.027,120000.0,0.68,2900.0,ACTIVE
+WH_05,Kolkata Eastern Distribution Depot,"Kolkata (Dankuni), West Bengal",22.6841,88.2917,110000.0,0.69,2600.0,ACTIVE
+WH_06,Hyderabad Central Hub,"Hyderabad (Medchal), Telangana",17.6297,78.4814,130000.0,0.74,3100.0,ACTIVE
+WH_07,Ahmedabad Western Fulfillment WH,"Ahmedabad (Aslali), Gujarat",22.9228,72.5855,125000.0,0.82,2800.0,ACTIVE
+WH_08,Pune Regional Auto-Logistics Park,"Pune (Chakan), Maharashtra",18.7606,73.8617,100000.0,0.67,2500.0,ACTIVE
+WH_09,Nagpur Multimodal Transit Center,"Nagpur (MIHAN), Maharashtra",21.1458,79.0882,160000.0,0.81,3000.0,ACTIVE
+WH_10,Jaipur North-West Regional WH,"Jaipur, Rajasthan",26.9124,75.7873,95000.0,0.82,2200.0,ACTIVE

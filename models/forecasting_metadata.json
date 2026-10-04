@@ -1,0 +1,41 @@
+{
+  "best_model_name": "XGBoost_Regressor",
+  "metrics": {
+    "Naive": {
+      "MAE": 110961.6262,
+      "RMSE": 136255.0986,
+      "sMAPE_percent": 7.2
+    },
+    "MovingAverage_4W": {
+      "MAE": 135495.4124,
+      "RMSE": 153446.8442,
+      "sMAPE_percent": 8.42
+    },
+    "MovingAverage_8W": {
+      "MAE": 194063.8777,
+      "RMSE": 210775.2663,
+      "sMAPE_percent": 11.8
+    },
+    "XGBoost_Regressor": {
+      "MAE": 68553.1395,
+      "RMSE": 96042.4965,
+      "sMAPE_percent": 4.35
+    }
+  },
+  "feature_columns": [
+    "month",
+    "week",
+    "quarter",
+    "day_of_year",
+    "trend",
+    "lag_1",
+    "lag_2",
+    "lag_4",
+    "lag_8",
+    "rolling_mean_4",
+    "rolling_std_4",
+    "rolling_mean_8",
+    "rolling_max_4",
+    "rolling_min_4"
+  ]
+}
